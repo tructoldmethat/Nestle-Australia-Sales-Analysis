@@ -1,6 +1,6 @@
 # NESTLÉ AUSTRALIA REVENUE 2018-2020 ANALYSIS
 
-![Revenue Analysis Visualization](<code to add image here>)
+![Revenue Analysis Visualization](images/nestle_dashboard.png)
 
 ## Project Background
 Nestlé has been a global leader in food and beverages for over 150 years, offering products such as dairy, confectionery, beverages, and prepared meals. As a data analyst at Nestlé Australia, I analyzed sales data for 9 Nestlé products from 2018 to 2020 to provide management with actionable insights to optimize operations, enhance decision-making, and capitalize on growth opportunities.
@@ -10,7 +10,9 @@ This analysis focuses on the following key areas:
 - **Dimensional Segmentation**: Analyzing sales by state, product, and sales medium to refine targeting strategies.
 - **Distribution**: Identifying top-performing products and their contribution to overall revenue to guide resource allocation.
 
-The SQL queries used for data cleaning and preparation can be found [here](#). An interactive Tableau dashboard for exploring sales trends is available [here](#).
+The SQL queries used to inspect and clean the data for this analysis can be found [here](https://github.com/tructoldmethat/Nestle-Australia-Sales-Analysis/blob/main/nestlesales.sql). 
+
+An interactive Tableau dashboard for exploring sales trends is available [here](https://public.tableau.com/app/profile/truc.huynh3135/viz/NestlSalesAnalysis/NestleDashboard).
 
 ---
 
