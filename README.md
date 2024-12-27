@@ -52,7 +52,7 @@ Adult-oriented products like Nescafé led in online sales, accounting for 47% of
 
 - **Revitalize Underperforming Products through Product Innovation**: Reposition **Kit Kat** with new flavors or limited-edition packaging. Launch seasonal promotions and in-store activations to spark interest and drive sales or leverage product placement in movies or videos from content creator to showcase the product in daily context.
 
-- **Focus on High-Performing Regions** by increasing marketing efforts in **Tasmania & South Australia** through regional ads and retail partnerships. For states with lower sales but have high potential like **Western Australia Sales*, more online promotions are recommended to drive higher sales online. 
+- **Focus on High-Performing Regions** by increasing marketing efforts in **Tasmania & South Australia** through regional ads and retail partnerships. 
 
 - **Strengthen E-Commerce**  
    - **Digital Marketing**: Invest in targeted online advertising, offering exclusive discounts and subscription models to engage digital consumers.  
