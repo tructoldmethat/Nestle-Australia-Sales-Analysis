@@ -20,9 +20,9 @@ An interactive Tableau dashboard for exploring sales trends is available [here](
 
 ### Overview of Findings
 From 2018 to 2020, Nestlé generated a total revenue of **$30,819,756.45** from 9 products: Maggi, Nescau, Nescafé Gold, Nesquik Duo, Milo, Smarties, Nestlé Drumstick, Kit Kat, and Nescafé. Keyinsights are derived from this analysis as below:
-1. **Milo** was the top revenue contributor, accounting for 19% of total sales. Although Nescafé ranked second, it demonstrated the most consistent and robust sales performance.
-2. **Direct sales** constituted 61.56% of transactions, underscoring their importance in boosting revenue.
-3. **Tasmania** and **South Australia** dominated in sales volume.
+- **Milo** was the top revenue contributor, accounting for 19% of total sales. Although Nescafé ranked second, it demonstrated the most consistent and robust sales performance.
+- **Direct sales** constituted 61.56% of transactions, underscoring their importance in boosting revenue.
+- **Tasmania** and **South Australia** dominated in sales volume.
 
 ---
 
@@ -54,11 +54,11 @@ Adult-oriented products like Nescafé led in online sales, accounting for 47% of
 
 - **Focus on High-Performing Regions** by increasing marketing efforts in **Tasmania & South Australia** through regional ads and retail partnerships. For states with lower sales but have high potential like **Western Australia Sales*, more online promotions are recommended to drive higher sales online. 
 
-4. **Strengthen E-Commerce**  
+- **Strengthen E-Commerce**  
    - **Digital Marketing**: Invest in targeted online advertising, offering exclusive discounts and subscription models to engage digital consumers.  
    - **Improve User Experience**: Optimize the online shopping experience with fast delivery options and personalized product recommendations.
 
-5. **Seasonal Promotions**  
+- **Seasonal Promotions**  
    - **Holiday Campaigns**: Launch limited-time holiday editions and gift bundles to address the typical December sales decline.  
    - **Summer Push**: Plan early summer promotions and partnerships to capitalize on increased demand from January onwards.
 
