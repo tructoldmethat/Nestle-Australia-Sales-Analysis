@@ -34,8 +34,7 @@ From 2018 to 2020, Nestlé generated a total revenue of **$30,819,756.45** from 
 
 ### Dimensional Segmentation of Sales
 - **Top Regions**:
-  - **Tasmania**: 3,187 units sold; Milo and Nescafé accounted for 18% of revenue each.
-  - **South Australia**: 3,143 units sold.
+    - **Tasmania**: 3,187 units sold, driven by Milo and Nescafé (18% revenue share each) while **South Australia** recorded 3,143 units sold.  
 - **Underperforming Region**: Western Australia recorded the lowest sales at 271 units, indicating the need for targeted initiatives.
 - **Sales Channels**:
   - **Direct Sales**: 61.56% of transactions (11,152), emphasizing their critical role.
@@ -46,4 +45,31 @@ From 2018 to 2020, Nestlé generated a total revenue of **$30,819,756.45** from 
 
 ### Distribution Analysis
 - **Top Products**:
-  - Milo, Nescafé, and Nesquik Duo colle
+  - Milo, Nescafé, and Nesquik Duo collectively contributed over 50% of total revenue.
+  - Nescafé demonstrated high demand with consistent year-over-year sales driven by its low price point.
+- **Underperforming Products**:
+  - Kit Kat and Maggi reported the lowest revenues at $3,199,164.78 and $128, respectively, indicating potential areas for intervention.
+- **Chocolate Beverage Preferences**: Milo outperformed Nescau, with its sales increasing steadily year-round, unlike Nescau, which declined.
+
+---
+
+## Recommendations
+
+1. **Enhance High-Revenue Products**: 
+   - Allocate additional marketing and distribution resources to Milo, Nescafé, and Nesquik Duo to sustain their market leadership.
+
+2. **Revitalize Underperforming Products**: 
+   - Implement promotional campaigns and innovative positioning strategies for Kit Kat and Maggi to boost sales.
+
+3. **Prioritize High-Performing Regions**: 
+   - Invest further in Tasmania and South Australia while addressing barriers in Western Australia to unlock latent potential.
+
+4. **Leverage Digital Channels**: 
+   - Strengthen e-commerce infrastructure and marketing to capitalize on the growing digital consumer base.
+
+5. **Seasonal Strategies**: 
+   - Develop targeted promotional initiatives for December to counteract declining year-end sales.
+
+---
+
+This analysis provides a comprehensive understanding of Nestlé Australia's revenue trends and offers actionable insights to support strategic decision-making.
