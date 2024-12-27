@@ -3,12 +3,12 @@
 ![Revenue Analysis Visualization](images/nestle_dashboard.png)
 
 ## Project Background
-Nestlé has been a global leader in food and beverages for over 150 years, offering products such as dairy, confectionery, beverages, and prepared meals. As a data analyst at Nestlé Australia, I analyzed sales data for 9 Nestlé products from 2018 to 2020 to provide management with actionable insights to optimize operations, enhance decision-making, and capitalize on growth opportunities.
+Nestlé has been a global leader in food and beverages for over 150 years, offering products such as dairy, confectionery, beverages, and prepared meals. As a data analyst at Nestlé Australia, I analyzed sales data for 9 Nestlé products from 2018 to 2020 to provide management with actionable insights to support strategic decision-making, and capitalize on growth opportunities.
 
 This analysis focuses on the following key areas:
-- **Seasonality**: Examining month-over-month (MoM) and year-over-year (YoY) sales trends to identify demand fluctuations.
-- **Dimensional Segmentation**: Analyzing sales by state, product, and sales medium to refine targeting strategies.
-- **Distribution**: Identifying top-performing products and their contribution to overall revenue to guide resource allocation.
+- **Sales Trend by Seasonality**: Examining month-over-month (MoM) and year-over-year (YoY) sales trends to identify demand fluctuations.
+- **Dimensional Segmentation of Sales**: Analyzing sales by state, product, and sales medium to refine targeting strategies.
+- **Product Performancen**: Identifying top-performing products and their contribution to overall revenue to guide resource allocation.
 
 The SQL queries used to inspect and clean the data for this analysis can be found [here](https://github.com/tructoldmethat/Nestle-Australia-Sales-Analysis/blob/main/nestlesales.sql). 
 
@@ -33,43 +33,32 @@ From 2018 to 2020, Nestlé generated a total revenue of **$30,819,756.45** from 
 - **Year-End Decline**: December showed a recurring sales dip across all three years, recovering in January and climbing steadily through summer. This highlights a potential gap in holiday season strategies.
 
 ### Dimensional Segmentation of Sales
-- **Top Regions**:
-    - **Tasmania**: 3,187 units sold, driven by Milo and Nescafé (18% revenue share each) while **South Australia** recorded 3,143 units sold.  
+- **Top Regions**: **Tasmania** recored 3,187 units sold, driven by Milo and Nescafé (18% revenue share each). Following closely is **South Australia** with 3,143 sales recorded.  
 - **Underperforming Region**: Western Australia recorded the lowest sales at 271 units, indicating the need for targeted initiatives.
-- **Sales Channels**:
-  - **Direct Sales**: 61.56% of transactions (11,152), emphasizing their critical role.
-  - **E-Commerce**: 38.44% of transactions (6,963), presenting significant growth opportunities.
-- **Product Performance by Channel**:
-  - Family-oriented products (e.g., Milo, Nesquik Duo) dominated direct sales, contributing 18% and 25% of total revenue, respectively.
-  - Adult-oriented products like Nescafé led in online sales, accounting for 47% of revenue.
+- **Sales Channels**: Direct Sales** accounted for 61.56% of transactions (11,152), emphasizing their critical role with 38.44% of transactions (6,963) were online, presenting significant growth opportunities.
+- **Product Performance by Channel**: Family-oriented products (e.g., Milo, Nesquik Duo) dominated direct sales, contributing 18% and 25% of total revenue, respectively.
+Adult-oriented products like Nescafé led in online sales, accounting for 47% of revenue.
 
-### Distribution Analysis
-- **Top Products**:
-  - Milo, Nescafé, and Nesquik Duo collectively contributed over 50% of total revenue.
-  - Nescafé demonstrated high demand with consistent year-over-year sales driven by its low price point.
-- **Underperforming Products**:
-  - Kit Kat and Maggi reported the lowest revenues at $3,199,164.78 and $128, respectively, indicating potential areas for intervention.
-- **Chocolate Beverage Preferences**: Milo outperformed Nescau, with its sales increasing steadily year-round, unlike Nescau, which declined.
+### Product Performance
+- **Top Products**: Milo, Nescafé, and Nesquik Duo collectively contributed over 50% of total revenue. Nescafé demonstrated high demand with consistent year-over-year sales driven by its low price point.
+- **Underperforming Products**: Kit Kat and Maggi reported the lowest revenues at $2.2M and $1.7M, respectively, indicating potential areas for improvement in sales strategies.
+- **Chocolate Beverage Preferences**: Milo outperformed Nescau, with its sales increasing steadily year-round.
 
 ---
 
 ## Recommendations
 
-1. **Enhance High-Revenue Products**: 
-   - Allocate additional marketing and distribution resources to Milo, Nescafé, and Nesquik Duo to sustain their market leadership.
+- **Maximize High-Revenue Products through Targeted Marketing**: Run focused campaigns for **Milo**, **Nescafé**, and **Nesquik Duo**, highlighting their unique qualities. Expand availability through premium retail channels and influencer partnerships to boost brand awareness.
 
-2. **Revitalize Underperforming Products**: 
-   - Implement promotional campaigns and innovative positioning strategies for Kit Kat and Maggi to boost sales.
+- **Revitalize Underperforming Products through Product Innovation**: Reposition **Kit Kat** with new flavors or limited-edition packaging. Launch seasonal promotions and in-store activations to spark interest and drive sales or leverage product placement in movies or videos from content creator to showcase the product in daily context.
 
-3. **Prioritize High-Performing Regions**: 
-   - Invest further in Tasmania and South Australia while addressing barriers in Western Australia to unlock latent potential.
+- **Focus on High-Performing Regions** by increasing marketing efforts in **Tasmania & South Australia** through regional ads and retail partnerships. For states with lower sales but have high potential like **Western Australia Sales*, more online promotions are recommended to drive higher sales online. 
 
-4. **Leverage Digital Channels**: 
-   - Strengthen e-commerce infrastructure and marketing to capitalize on the growing digital consumer base.
+4. **Strengthen E-Commerce**  
+   - **Digital Marketing**: Invest in targeted online advertising, offering exclusive discounts and subscription models to engage digital consumers.  
+   - **Improve User Experience**: Optimize the online shopping experience with fast delivery options and personalized product recommendations.
 
-5. **Seasonal Strategies**: 
-   - Develop targeted promotional initiatives for December to counteract declining year-end sales.
+5. **Seasonal Promotions**  
+   - **Holiday Campaigns**: Launch limited-time holiday editions and gift bundles to address the typical December sales decline.  
+   - **Summer Push**: Plan early summer promotions and partnerships to capitalize on increased demand from January onwards.
 
----
-
-This analysis provides a comprehensive understanding of Nestlé Australia's revenue trends and offers actionable insights to support strategic decision-making.
