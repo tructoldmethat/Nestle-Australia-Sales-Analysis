@@ -29,7 +29,7 @@ From 2018 to 2020, Nestlé generated a total revenue of **$30,819,756.45** from 
 ## Insights Deep Dive
 
 ### Sales Trend by Seasonality
-- **Peak Months**: Sales consistently peaked mid-year (June–August), with notable highs in July and October. The highest sales was recorded in October 2018 and July 2019 with 672 sales). July aligns with Australia's cold season and mid-year holidays, which is a period that most companies in Australia target for increasing sales by boosting more promotional offers. October marks the start of holiday preparations, boosting sales.
+- **Peak Months**: Sales consistently peaked mid-year (June–August), with notable highs in July and October. The highest sales was recorded in October 2018 and July 2019 with 672 sales. July aligns with Australia's cold season and mid-year holidays, which is a period that most companies in Australia target for increasing sales by boosting more promotional offers. October marks the start of holiday preparations, boosting sales.
 - **Year-End Decline**: December showed a recurring sales dip across all three years, recovering in January and climbing steadily through summer. This highlights a potential gap in holiday season strategies.
 
 ### Dimensional Segmentation of Sales
