@@ -35,7 +35,7 @@ From 2018 to 2020, Nestlé generated a total revenue of **$30,819,756.45** from 
 ### Dimensional Segmentation of Sales
 - **Top Regions**: **Tasmania** recored 3,187 units sold, driven by Milo and Nescafé (18% revenue share each). Following closely is **South Australia** with 3,143 sales recorded.  
 - **Underperforming Region**: Western Australia recorded the lowest sales at 271 units, indicating the need for targeted initiatives.
-- **Sales Channels**: Direct Sales** accounted for 61.56% of transactions (11,152), emphasizing their critical role with 38.44% of transactions (6,963) were online, presenting significant growth opportunities.
+- **Sales Channels**: **Direct Sales** accounted for 61.56% of transactions (11,152), emphasizing their critical role with 38.44% of transactions (6,963) were online, presenting significant growth opportunities.
 - **Product Performance by Channel**: Family-oriented products (e.g., Milo, Nesquik Duo) dominated direct sales, contributing 18% and 25% of total revenue, respectively.
 Adult-oriented products like Nescafé led in online sales, accounting for 47% of revenue.
 
