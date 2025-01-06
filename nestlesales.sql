@@ -36,11 +36,12 @@ FROM nestle_temp
 GROUP BY month
 ORDER BY month;
 
--- Revenue per product compared to average anual revenue
+-- Anual revenue per product compared to average anual revenue of all products, 
 SELECT year
 	, product_name
     , total_revenue_per_year
-    , ROUND(AVG(total_revenue_per_year) OVER(PARTITION BY year),2) AS avg_anual_revenue
+    , RANK () OVER (ORDER BY total_revenue_per_year DESC) AS revenue_ranking
+    , ROUND(AVG(total_revenue_per_year) OVER(PARTITION BY year),2) AS avg_anual_revenue -- Average revenue of all products per year
     , CASE WHEN total_revenue_per_year > ROUND(AVG(total_revenue_per_year) OVER(PARTITION BY year),2) THEN 'Above Average'
 		   WHEN total_revenue_per_year < ROUND(AVG(total_revenue_per_year) OVER(PARTITION BY year),2) THEN 'Below Average'
            ELSE 'Average'
