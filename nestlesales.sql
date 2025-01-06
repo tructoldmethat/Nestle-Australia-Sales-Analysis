@@ -22,16 +22,16 @@ SELECT * FROM nestle_temp;
 -- SEASONALITY --
 -- Sales trend by year
 SELECT DISTINCT year
-    , SUM(total_revenue) AS revenue_by_year
-    , SUM(sales_count) AS sales_by_year
+, SUM(total_revenue) AS revenue_by_year
+, SUM(sales_count) AS sales_by_year
 FROM nestle_temp
 GROUP BY year
 ORDER BY year;
 
 -- Sales trend by month
 SELECT DISTINCT month
-    , SUM(total_revenue) AS revenue_by_month
-    , SUM(sales_count) AS sales_by_month
+, SUM(total_revenue) AS revenue_by_month
+, SUM(sales_count) AS sales_by_month
 FROM nestle_temp
 GROUP BY month
 ORDER BY month;
@@ -43,12 +43,12 @@ SELECT year
     , RANK () OVER (ORDER BY total_revenue_per_year DESC) AS revenue_ranking
     , ROUND(AVG(total_revenue_per_year) OVER(PARTITION BY year),2) AS avg_anual_revenue -- Average revenue of all products per year
     , CASE WHEN total_revenue_per_year > ROUND(AVG(total_revenue_per_year) OVER(PARTITION BY year),2) THEN 'Above Average'
-		   WHEN total_revenue_per_year < ROUND(AVG(total_revenue_per_year) OVER(PARTITION BY year),2) THEN 'Below Average'
+           WHEN total_revenue_per_year < ROUND(AVG(total_revenue_per_year) OVER(PARTITION BY year),2) THEN 'Below Average'
            ELSE 'Average'
            END AS revenue_vs_avg
 FROM (SELECT year
-	, product_name
-    , SUM(total_revenue) AS total_revenue_per_year
+, product_name
+, SUM(total_revenue) AS total_revenue_per_year
 FROM nestle_temp
 GROUP BY year, product_name) AS aggregated_data
 ORDER BY year;
@@ -56,24 +56,24 @@ ORDER BY year;
 -- DIMENSIONAL SEGMENTATION --
 -- Total revenue and sales by product
 SELECT DISTINCT product_name
-    , SUM(total_revenue) AS revenue_by_product
-    , SUM(sales_count) AS sales_by_product
+, SUM(total_revenue) AS revenue_by_product
+, SUM(sales_count) AS sales_by_product
 FROM nestle_temp
 GROUP BY product_name
 ORDER BY revenue_by_product DESC;
 
 -- Total revenue and sales by state
 SELECT DISTINCT sales_location
-	, SUM(total_revenue) AS revenue_by_location
-    , SUM(sales_count) AS sales_by_location
+, SUM(total_revenue) AS revenue_by_location
+, SUM(sales_count) AS sales_by_location
 FROM nestle_temp
 GROUP BY sales_location
 ORDER BY revenue_by_location DESC;
 
 -- Total revenue and sales by sales medium
 SELECT DISTINCT sales_medium
-	, SUM(total_revenue) AS revenue_by_medium
-    , SUM(sales_count) AS sales_by_medium
+, SUM(total_revenue) AS revenue_by_medium
+, SUM(sales_count) AS sales_by_medium
 FROM nestle_temp
 GROUP BY sales_medium
 ORDER BY revenue_by_medium DESC;
@@ -97,19 +97,18 @@ GROUP BY product_name
 ORDER BY avg_revenue DESC;
 
 -- DISTRIBUTION --
--- Top 10 products with the highest sales
+-- Top products with the highest sales
 SELECT DISTINCT product_name
-    , SUM(total_revenue) AS revenue_by_product
-	, SUM(sales_count) AS sales_by_product
+, SUM(total_revenue) AS revenue_by_product
+, SUM(sales_count) AS sales_by_product
 FROM nestle_temp
 GROUP BY product_name
-ORDER BY sales_by_product DESC
-LIMIT 10;
+ORDER BY sales_by_product DESC;
 
 -- Top 10 locations with the highest sales percentage
 SELECT DISTINCT sales_location
-	, SUM(total_revenue) AS revenue_by_location
-    , SUM(sales_count) AS sales_by_location
+, SUM(total_revenue) AS revenue_by_location
+, SUM(sales_count) AS sales_by_location
 FROM nestle_temp
 GROUP BY sales_location
 ORDER BY sales_by_location DESC
