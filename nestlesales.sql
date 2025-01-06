@@ -1,8 +1,11 @@
+-- Select the database
+USE db; 
+
 -- Create a temporary table to pre-process data and use the processed data across multiple queries
-DROP TEMPORARY TABLE IF EXISTS nestle_temp
+DROP TEMPORARY TABLE IF EXISTS nestle_temp;
+
 CREATE TEMPORARY TABLE nestle_temp AS
-WITH processed_data AS (
-    SELECT sales_id
+SELECT sales_id
         , date
         , product_name
         , CAST(REPLACE(total_revenue,'$','') AS DECIMAL(10,2)) AS total_revenue 
@@ -13,8 +16,8 @@ WITH processed_data AS (
         , EXTRACT(YEAR FROM STR_TO_DATE(date,'%d-%b-%y')) AS year
         , EXTRACT(MONTH FROM STR_TO_DATE(date,'%d-%b-%y')) AS month
     FROM db.nestle
-)
-SELECT * FROM processed_data;
+
+SELECT * FROM nestle_temp;
 
 -- SEASONALITY --
 -- Sales trend by year
@@ -32,6 +35,22 @@ SELECT DISTINCT month
 FROM nestle_temp
 GROUP BY month
 ORDER BY month;
+
+-- Revenue per product compared to average anual revenue
+SELECT year
+	, product_name
+    , total_revenue_per_year
+    , ROUND(AVG(total_revenue_per_year) OVER(PARTITION BY year),2) AS avg_anual_revenue
+    , CASE WHEN total_revenue_per_year > ROUND(AVG(total_revenue_per_year) OVER(PARTITION BY year),2) THEN 'Above Average'
+		   WHEN total_revenue_per_year < ROUND(AVG(total_revenue_per_year) OVER(PARTITION BY year),2) THEN 'Below Average'
+           ELSE 'Average'
+           END AS revenue_vs_avg
+FROM (SELECT year
+	, product_name
+    , SUM(total_revenue) AS total_revenue_per_year
+FROM nestle_temp
+GROUP BY year, product_name) AS aggregated_data
+ORDER BY year;
 
 -- DIMENSIONAL SEGMENTATION --
 -- Total revenue and sales by product
